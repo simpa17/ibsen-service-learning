@@ -1,0 +1,11 @@
+/*  Font Cabin Condensed - content*/
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;700&display=swap');
+
+/* Font Cabin Condensed - title*/
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;700&family=Playfair+Display:ital,wght@1,400;1,500;1,600&display=swap');
+
+@import './header.css';
+@import './news.css';
+@import './partner.css';
+@import './stories.css';
+@import './activities.css';
