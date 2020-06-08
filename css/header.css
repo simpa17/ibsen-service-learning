@@ -23,6 +23,12 @@
   background-color: #ca2128;
 }
 
+.nar-bar__img {
+  background-color: #ca2128;
+  width: 80%;
+  height: auto;
+  margin-left: 25px;
+}
 #close {
   font-size: 40px;
   background-color: #ca2128;
@@ -37,14 +43,6 @@
   margin: 20px 30px;
 }
 
-.nav-bar__donate {
-  background-color: #ca2128;
-  color: #fff;
-  margin: 20px 30px;
-  font-size: 30px;
-  font-family: 'Playfair Display';
-}
-
 .nar-bar__list a {
   text-decoration: unset;
   color: #fff;
@@ -57,6 +55,28 @@
   color: #edddd4;
 }
 
+.nav-bar__donate {
+  background-color: #ca2128;
+  color: #fff;
+  margin: 20px 30px;
+  font-size: 30px;
+  font-family: 'Playfair Display';
+  border: 2px dashed white;
+  text-align: center;
+  width: 50%;
+}
+
+.nav-bar__donate:hover {
+  border: 2px solid white;
+  background-color: #580f11;
+}
+
+.nar-bar__scan {
+  background-color: #ca2128;
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+}
 .header {
   display: grid;
   align-items: center;
@@ -89,12 +109,13 @@
 }
 
 .header__nav-bar__icon ion-icon {
-  font-size: 40px;
+  font-size: 50px;
   color: #2c1b11;
+  margin-left: 30px;
 }
 
 .header__nav-bar__icon ion-icon:hover {
-  font-size: 40px;
+  font-size: 50px;
   color: #fcfafa;
   background-color: #edddd4;
 }
