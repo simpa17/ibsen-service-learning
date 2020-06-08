@@ -8,38 +8,40 @@
 
 .nar-bar {
   position: relative;
+  position: fixed;
   right: 0;
   transform: translateX(300px);
   z-index: 999;
-  position: fixed;
   width: 300px;
   height: 100vh;
-  background-color: #ca2128;
+  background-color: #802225;
   color: #fff;
   transition: 300ms all ease-in-out;
 }
 
 .nav-bar * {
-  background-color: #ca2128;
+  background-color: #802225;
 }
 
 .nar-bar__img {
-  background-color: #ca2128;
+  background-color: #802225;
   width: 80%;
   height: auto;
-  margin-left: 25px;
+  margin: 0 auto;
+  display: block;
 }
 #close {
   font-size: 40px;
-  background-color: #ca2128;
+  background-color: #802225;
   margin: 20px 30px;
 }
 
-.nar-bar__list {
-  background-color: #ca2128;
+#close:hover {
+  color: rgb(43, 27, 27);
 }
 
 .nar-bar__list {
+  background-color: #802225;
   margin: 20px 30px;
 }
 
@@ -56,13 +58,15 @@
 }
 
 .nav-bar__donate {
-  background-color: #ca2128;
+  background-color: #802225;
   color: #fff;
-  margin: 20px 30px;
+  margin: 20px auto;
   font-size: 30px;
   font-family: 'Playfair Display';
-  border: 2px dashed white;
+  border: 1px dashed white;
+  border-radius: 30px;
   text-align: center;
+  justify-content: center;
   width: 50%;
 }
 
@@ -71,12 +75,13 @@
   background-color: #580f11;
 }
 
-.nar-bar__scan {
-  background-color: #ca2128;
+.nar-bar__qr {
+  background-color: #802225;
   width: 60%;
   margin: 0 auto;
   display: block;
 }
+
 .header {
   display: grid;
   align-items: center;
@@ -108,10 +113,26 @@
   margin-left: 60%;
 }
 
+.header__nav-bar__search {
+  display: flex;
+  text-align: center;
+}
+
+.header__nav-bar__search {
+  border: white solid;
+  width: 100%;
+}
+
+.header__nav-bar__search ion-icon {
+  font-size: 150px;
+  color: #fcfafa;
+  margin-right: 30px;
+}
+
 .header__nav-bar__icon ion-icon {
   font-size: 50px;
   color: #2c1b11;
-  margin-left: 30px;
+  margin: 0 auto;
 }
 
 .header__nav-bar__icon ion-icon:hover {
