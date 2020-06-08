@@ -14,17 +14,13 @@
   z-index: 999;
   width: 300px;
   height: 100vh;
-  background-color: #802225;
+  background-color: #8d432a;
   color: #fff;
   transition: 300ms all ease-in-out;
 }
 
-.nav-bar * {
-  background-color: #802225;
-}
-
 .nar-bar__img {
-  background-color: #802225;
+  background-color: #8d432a;
   width: 80%;
   height: auto;
   margin: 0 auto;
@@ -32,24 +28,23 @@
 }
 #close {
   font-size: 40px;
-  background-color: #802225;
+  background-color: #8d432a;
   margin: 20px 30px;
 }
 
 #close:hover {
-  color: rgb(43, 27, 27);
+  color: #396318;
 }
 
 .nar-bar__list {
-  background-color: #802225;
+  background-color: #8d432a;
   margin: 20px 30px;
 }
 
 .nar-bar__list a {
   text-decoration: unset;
-  color: #fff;
+  color: #396318;
   font-size: 30px;
-  font-family: 'Playfair Display';
 }
 
 .nar-bar__list a:hover {
@@ -58,7 +53,7 @@
 }
 
 .nav-bar__donate {
-  background-color: #802225;
+  background-color: #8d432a;
   color: #fff;
   margin: 20px auto;
   font-size: 30px;
@@ -72,11 +67,11 @@
 
 .nav-bar__donate:hover {
   border: 2px solid white;
-  background-color: #580f11;
+  background-color: #396318;
 }
 
 .nar-bar__qr {
-  background-color: #802225;
+  background-color: #8d432a;
   width: 60%;
   margin: 0 auto;
   display: block;
@@ -131,7 +126,7 @@
 
 .header__nav-bar__icon ion-icon {
   font-size: 50px;
-  color: #2c1b11;
+  color: #396318;
   margin: 0 auto;
 }
 
