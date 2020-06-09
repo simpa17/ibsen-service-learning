@@ -1,9 +1,16 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+
+:root {
+  --main-color: rgb(156, 21, 21);
+  --button-color: rgb(90, 28, 28);
+}
 * {
   margin: 0;
   padding: 0;
   background-color: #f2f2f2;
   box-sizing: border-box;
   font-family: 'Cabin Condensed';
+  overflow: hidden;
 }
 
 .nar-bar {
@@ -14,36 +21,38 @@
   z-index: 999;
   width: 300px;
   height: 100vh;
-  background-color: #8d432a;
+  background-color: var(--main-color);
   color: #fff;
   transition: 300ms all ease-in-out;
 }
 
 .nar-bar__img {
-  background-color: #8d432a;
+  background-color: var(--main-color);
   width: 80%;
   height: auto;
   margin: 0 auto;
   display: block;
 }
+
 #close {
   font-size: 40px;
-  background-color: #8d432a;
+  background-color: var(--main-color);
   margin: 20px 30px;
+  color: #fff;
 }
 
 #close:hover {
-  color: #396318;
+  color: #eea0a0;
 }
 
 .nar-bar__list {
-  background-color: #8d432a;
+  background-color: var(--main-color);
   margin: 20px 30px;
 }
 
 .nar-bar__list a {
   text-decoration: unset;
-  color: #396318;
+  color: #fff;
   font-size: 30px;
 }
 
@@ -53,7 +62,7 @@
 }
 
 .nav-bar__donate {
-  background-color: #8d432a;
+  background-color: var(--main-color);
   color: #fff;
   margin: 20px auto;
   font-size: 30px;
@@ -67,11 +76,11 @@
 
 .nav-bar__donate:hover {
   border: 2px solid white;
-  background-color: #396318;
+  background-color: #e42c0b;
 }
 
 .nar-bar__qr {
-  background-color: #8d432a;
+  background-color: var(--main-color);
   width: 60%;
   margin: 0 auto;
   display: block;
@@ -94,7 +103,7 @@
 }
 
 .header__logo img {
-  height: 120px;
+  height: 80px;
   width: auto;
 }
 
@@ -105,7 +114,7 @@
 }
 
 .header__nav-bar {
-  margin-left: 60%;
+  justify-self: end;
 }
 
 .header__nav-bar__search {
@@ -126,7 +135,7 @@
 
 .header__nav-bar__icon ion-icon {
   font-size: 50px;
-  color: #396318;
+  color: var(--button-color);
   margin: 0 auto;
 }
 
@@ -134,4 +143,33 @@
   font-size: 50px;
   color: #fcfafa;
   background-color: #edddd4;
+}
+
+.search-box {
+  position: fixed;
+  right: 0;
+  background-color: #edddd4;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  transform: translateY(-100px);
+  z-index: 999;
+}
+
+.search-box__icon {
+  position: absolute;
+  left: 20px;
+}
+
+.search-box__close {
+  position: absolute;
+  right: 20px;
+}
+
+.search-box__input {
+  width: 100%;
+  padding: 5px 10px 5px 50px;
+  margin: 0 auto;
+  border-radius: 30px;
+  outline: none;
 }
