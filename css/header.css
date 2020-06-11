@@ -113,7 +113,7 @@
 }
 
 .header__name-img {
-  height: 100px;
+  height: 110%;
   width: auto;
   margin-left: 10%;
 }
@@ -216,6 +216,7 @@
       rgba(165, 42, 42, 0.315)
     ),
     url(../img/backgroudslider.jpg);
+  background-position: center;
 }
 
 #Container-SliderShow {
@@ -232,6 +233,10 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.Slider {
+  filter: brightness(0.7);
 }
 
 .Slider:not(:first-child) {
