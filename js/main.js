@@ -1,8 +1,9 @@
+// var nav = document.querySelector('.header')
+// nav.classList.toggle('header--fixed', window.scrollY >= window.innerHeight)
 var openMenu = document.querySelector('#open-menu')
 var navBar = document.querySelector('.nar-bar')
 var close = document.querySelector('#close')
 var openSearch = document.querySelector('#search')
-
 openMenu.addEventListener('click', function () {
   navBar.style.transform = 'translateX(0)'
   var list = document.querySelectorAll('.nar-bar__list')
