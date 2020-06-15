@@ -1,0 +1,63 @@
+
+.nd1{
+    
+    border-style: solid;
+    border-width: thick;
+    width: 505px;
+    height: 800px;
+    float: left;
+    background-color:  rgba(237, 245, 237, 0.445);
+    background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.247)),url(https://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/102402262_807826126290839_3792062546804413754_o.jpg?_nc_cat=101&_nc_sid=730e14&_nc_ohc=K_nCUG9GJNQAX9B2N_o&_nc_ht=scontent-hkg4-1.xx&oh=758f99c10afaba4f2f200bd8834cced5&oe=5F07FB5F);
+   
+}
+.nd1:hover{
+  color: rgba(255, 11, 11, 0.973);
+  
+}
+
+.h22{
+  margin-left: 40%;  
+  font-size: 250%;
+  margin-top: 80%;
+}
+.nd2{
+    
+    border-style: solid;
+    border-width: thick;
+    width: 505px;
+    height: 800px;
+    float: left;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-image-slice: fill;
+    background-color: rgba(243, 243, 243, 0.562);
+    background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.247)),url(https://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/91309960_762675424139243_6250002380113313792_o.jpg?_nc_cat=105&_nc_sid=730e14&_nc_ohc=0u3zQhYLo9UAX9k5BEm&_nc_ht=scontent-hkg4-1.xx&oh=685061733efb5991548ab010a61b428d&oe=5F08BC32); 
+}
+.nd2:hover{
+  color: rgba(251, 255, 11, 0.973);
+  
+}
+.k22{
+    border-style: hidden;
+    border-width: thick;
+    height: 490px;
+    background-color: rgba(255, 255, 255, 0.712);
+}
+.nd3{
+    
+    border-style: solid;
+    border-width: thick;
+    width: 505px;
+    height: 800px;
+    float:left;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-image-slice: fill;
+    background-color: rgba(243, 243, 243, 0.562);
+    background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.247)),url(https://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/100902322_799360447137407_7560400256492371968_o.jpg?_nc_cat=105&_nc_sid=730e14&_nc_ohc=BQRxzqg6EWMAX8lDgTU&_nc_ht=scontent-hkg4-1.xx&oh=9421054f693030b82a9708540f043623&oe=5F0B1EBF);
+    
+}
+.nd3:hover{
+  color: rgba(19, 124, 72, 0.993);
+  
+}
