@@ -5,14 +5,6 @@
   --button-color: rgb(90, 28, 28);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  background-color: #f2f2f2;
-  box-sizing: border-box;
-  font-family: 'Cabin Condensed';
-}
-
 .nar-bar {
   position: relative;
   position: fixed;
@@ -99,10 +91,6 @@
   overflow: hidden;
 }
 
-.header * {
-  background-color: #edddd4;
-}
-
 .header__logo {
   margin-left: 5%;
 }
@@ -179,7 +167,6 @@
 .search-box {
   position: fixed;
   right: 0;
-  background-color: #edddd4;
   height: 100px;
   display: flex;
   align-items: center;
@@ -190,11 +177,13 @@
 .search-box__icon {
   position: absolute;
   left: 20px;
+  color: black;
 }
 
 .search-box__close {
   position: absolute;
   right: 20px;
+  color: black;
 }
 
 .search-box__input {
@@ -210,7 +199,7 @@
 }
 
 .slideShow-container {
-  height: 90vh;
+  height: 100vh;
   background-image: linear-gradient(
       rgba(165, 42, 42, 0.315),
       rgba(165, 42, 42, 0.315)
@@ -230,8 +219,8 @@
   position: relative;
 }
 .Slider {
-  width: 90%;
-  height: 90%;
+  width: 70%;
+  height: 100vh;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -247,8 +236,8 @@
 
 .navButton {
   cursor: pointer;
-  padding: 10px;
-  margin: 5px;
+  padding: 100px;
+  margin: 0 auto;
   overflow: hidden;
   text-align: center;
   color: #fff;

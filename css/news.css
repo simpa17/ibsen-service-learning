@@ -1,95 +1,71 @@
-
-/* .new{
-    background-color: yellow;
-} */
-
-.icon-new{
-    font-size: 130%;
-    margin-top: 0.5%;
+.icon-new {
+  font-size: 130%;
+  margin-top: 0.5%;
 }
 
-.new__title{
-     text-align: center;
-     margin-bottom:2px;
-
- }
-
- .new__title::after{
-     display: block;
-     content: "";
-     height: 2px;
-     width: 5%;
-     margin: 0 auto;
-     background-color: orange;
-    margin-bottom: 1%;
- }
-
-.zoom-main:hover{
-    transform: scale(1.05);
+.new__title {
+  text-align: center;
+  margin-bottom: 2px;
 }
 
- .item-main{
-     width: 63%;
-     height: auto;
-     margin: 0 auto;
- }
-
- .content-main{
-     font-size: 85%;
-     word-wrap: break-word;
-     width: auto;
-     text-align: center;
- }
-
-
-
- .item-main img{
-    width: 100%;
-    height: auto;
- }
-
- .new__item{
-     width: 20%;
-     float: left;
-     margin-left:4%;
- }
-
- .item{
-     width: 100%;
-     height: auto;
-     margin: 0 auto;
-        
- }
-
- .item img{
-    width: 100%;
-    height: auto;
- }
-
- .content-item{
-     background-color: white;
-     word-wrap: break-word;
-     width: auto;
-     text-align: center;
- }
-
- .content-item a:hover,.content-main a:hover{
-     text-decoration: none;
- }
- 
- .zoom-item:hover{
-     transform: scale(1.105);
- }
-
-  @media all and (max-width:600px){
-     .new__item{
-     width: 60%;
-     margin-left: 20%;
-     }
+.zoom-main:hover {
+  transform: scale(1.05);
 }
 
+.item-main {
+  width: 63%;
+  height: auto;
+  margin: 0 auto;
+}
 
+.content-main {
+  font-size: 85%;
+  word-wrap: break-word;
+  width: auto;
+  text-align: center;
+}
 
+.item-main img {
+  width: 100%;
+  height: auto;
+}
 
+.new__item {
+  width: 20%;
+  float: left;
+  margin-left: 4%;
+}
 
+.item {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
 
+.item img {
+  width: 100%;
+  height: auto;
+}
+
+.content-item {
+  background-color: white;
+  word-wrap: break-word;
+  width: auto;
+  text-align: center;
+}
+
+.content-item a:hover,
+.content-main a:hover {
+  text-decoration: none;
+}
+
+.zoom-item:hover {
+  transform: scale(1.105);
+}
+
+@media all and (max-width: 600px) {
+  .new__item {
+    width: 60%;
+    margin-left: 20%;
+  }
+}
