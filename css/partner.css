@@ -1,0 +1,391 @@
+html {
+  background-color: #fff;
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: 300;
+  /* font-size: 20px;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; */
+}
+
+.partner__world {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.partner__partner {
+  text-align: center;
+}
+.partner__image {
+  text-align: center;
+  background-color: red;
+}
+
+.partner-info {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.692)),
+    url(../img/lawrence-kayku-frWOcVisp8U-unsplash.jpg);
+  padding: 20px;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: center;
+  height: 80vh;
+  background-repeat: no-repeat;
+}
+
+.container h2 {
+  font-size: 35px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: relative;
+  margin-right: 10px;
+  transition: 0.3s ease;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.container h2::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 0;
+  height: 6px;
+  background-color: rgba(255, 20, 0, 0.72);
+  margin-top: 5px;
+  transition: 300ms all ease-in-out;
+}
+
+.container h2:hover::after {
+  width: 100%;
+}
+
+.partner__introduce {
+  margin-top: 15px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.partner__introduce__logo {
+  float: left;
+  font-size: 30px;
+  color: white;
+  margin-right: 15px;
+  margin-left: 20px;
+}
+
+.partner__introduce__logo:hover {
+  color: red;
+}
+
+.partner__ibsen {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.partner__play {
+  margin-bottom: 10px;
+}
+
+.partner__welcome {
+  margin-bottom: 6px;
+  margin-left: 64px;
+}
+
+.partner__heading {
+  margin-top: 30px;
+  margin-bottom: 7%;
+}
+
+.partner__connect {
+  float: left;
+  margin-top: 3%;
+  margin-left: 7%;
+  margin-bottom: 20%;
+}
+
+.partner__icon {
+  font-size: 40px;
+  color: white;
+}
+
+.partner__iconworld {
+  margin-top: 15px;
+  font-size: 40px;
+  color: #ca2127;
+  float: left;
+  margin-right: 15px;
+}
+
+.partner__logo_ibsen img {
+  width: 45%;
+  height: auto;
+  margin-left: 27%;
+}
+
+.partner__knot {
+  margin-left: 94%;
+  font-size: 50px;
+}
+
+.partner__knot a {
+  color: white;
+  text-decoration: none;
+  padding: 4px;
+  width: 70px;
+}
+
+.partner__icon__facebook {
+  float: left;
+  margin-right: 15px;
+  color: rgb(0, 68, 255);
+}
+
+.partner__icon__facebook:hover {
+  color: blue;
+  transition: 0.3s ease;
+}
+
+.partner__icon__youtube {
+  float: left;
+  margin-right: 15px;
+  color: rgb(255, 51, 0);
+}
+
+.partner__icon__youtube:hover {
+  color: rgba(255, 17, 0, 0.932);
+  transition: 0.3s ease;
+}
+
+.partner__icon__instagram {
+  float: left;
+  margin-right: 15px;
+  color: rgba(255, 68, 0, 0.541);
+}
+
+.partner__icon__instagram:hover {
+  color: orangered;
+  transition: 0.3s ease;
+}
+
+.partner__icon__mail {
+  float: left;
+  color: blueviolet;
+}
+
+.partner__icon__mail:hover {
+  color: rgba(38, 0, 255, 0.795);
+  transition: 0.3s ease;
+}
+
+.partner__us {
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+}
+
+.partner__heading {
+  float: left;
+}
+
+.partner__subscribe {
+  margin-top: 25px;
+}
+
+.partner__update {
+  font-size: 25px;
+  color: white;
+  margin-bottom: 20px;
+  margin-left: 50%;
+}
+
+.partner__input {
+  margin-left: 40%;
+}
+.partner__email input {
+  border: 2px solid white;
+  border-radius: 200px;
+  float: left;
+  margin-right: 20px;
+  padding: 8px;
+  width: 30%;
+}
+
+.partner__firstname input {
+  border: 2px solid white;
+  border-radius: 200px;
+  float: left;
+  margin-right: 20px;
+  padding: 8px;
+  width: 30%;
+}
+
+.partner__lastname input {
+  border: 2px solid white;
+  border-radius: 200px;
+  float: left;
+  padding: 8px;
+  width: 30%;
+}
+
+.partner__clickSubscribe {
+  widows: 100px;
+  margin-left: 60%;
+  font-size: 25px;
+  margin-top: 7%;
+  color: white;
+  border-style: solid;
+  border-top-color: white;
+  border-top-width: 2px;
+  margin-right: 23%;
+}
+
+.partner__clickSubscribe button {
+  background-color: black;
+  width: 100%;
+}
+
+.partner__clickSubscribe button:hover {
+  background-color: brown;
+}
+
+.partner__art {
+  margin-left: 35%;
+  font-size: 25px;
+  margin-top: 3%;
+  color: white;
+}
+
+.partner__change {
+  float: left;
+  margin-right: 1%;
+}
+
+.partner__mini {
+  display: inline;
+  font-size: 20px;
+}
+
+.partner__click {
+  float: left;
+  color: yellow;
+  margin-right: 1%;
+}
+
+.partner__click:hover {
+  color: white;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.slick-list:focus {
+  outline: none;
+}
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.slick-track:before,
+.slick-track:after {
+  display: table;
+  content: '';
+}
+.slick-track:after {
+  clear: both;
+}
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+[dir='rtl'] .slick-slide {
+  float: right;
+}
+.slick-slide img {
+  display: block;
+}
+.slick-slide.slick-loading img {
+  display: none;
+}
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+.slick-initialized .slick-slide {
+  display: block;
+}
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+  display: none;
+}
+
+.partner__source {
+  background-color: #edddd4;
+  border-style: solid;
+  border-top-color: white;
+  border-top-width: 2px;
+}
+
+.partner__copyright p {
+  font-size: 20px;
+  color: black;
+}
