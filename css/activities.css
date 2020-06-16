@@ -4,7 +4,7 @@
     border-style: solid;
     border-width: thick;
     width: 505px;
-    height: 800px;
+    height: 795px;
     float: left;
     background-color:  rgba(237, 245, 237, 0.445);
     background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.247)),url(https://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/102402262_807826126290839_3792062546804413754_o.jpg?_nc_cat=101&_nc_sid=730e14&_nc_ohc=K_nCUG9GJNQAX9B2N_o&_nc_ht=scontent-hkg4-1.xx&oh=758f99c10afaba4f2f200bd8834cced5&oe=5F07FB5F);
@@ -25,7 +25,7 @@
     border-style: solid;
     border-width: thick;
     width: 505px;
-    height: 800px;
+    height: 795px;
     float: left;
     border-left-style: solid;
     border-right-style: solid;
@@ -48,7 +48,7 @@
     border-style: solid;
     border-width: thick;
     width: 505px;
-    height: 800px;
+    height: 795px;
     float:left;
     border-left-style: solid;
     border-right-style: solid;
@@ -60,4 +60,27 @@
 .nd3:hover{
   color: rgba(19, 124, 72, 0.993);
   
+}
+.button{
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px;
+  cursor: pointer;
+  margin-left: 40%; 
+  background-color: blue;
+  border-radius: 200px;
+  width: 30%;
+}
+
+.button:hover{background-color: #5d3e8e}
+
+.button:active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
