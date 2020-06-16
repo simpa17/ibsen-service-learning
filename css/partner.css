@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .partner__world {
   color: black;
   text-align: center;
@@ -12,7 +16,7 @@
 }
 
 .partner-info {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.692)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.767)),
     url(../img/lawrence-kayku-frWOcVisp8U-unsplash.jpg);
   padding: 20px;
   background-attachment: fixed;
@@ -93,9 +97,13 @@
   margin-bottom: 20%;
 }
 
-.partner__icon {
-  font-size: 40px;
-  color: white;
+.partner__icons {
+  display: flex;
+}
+
+.partner__icon ion-icon {
+  font-size: 50px;
+  margin-right: 15px;
 }
 
 .partner__iconworld {
@@ -113,8 +121,11 @@
 }
 
 .partner__knot {
-  margin-left: 94%;
-  font-size: 50px;
+  margin-left: 90%;
+}
+
+.partner__knot ion-icon {
+  font-size: 80px;
 }
 
 .partner__knot a {
@@ -124,52 +135,9 @@
   width: 70px;
 }
 
-.partner__icon__facebook {
-  float: left;
-  margin-right: 15px;
-  color: rgb(0, 68, 255);
-}
-
-.partner__icon__facebook:hover {
-  color: blue;
-  transition: 0.3s ease;
-}
-
-.partner__icon__youtube {
-  float: left;
-  margin-right: 15px;
-  color: rgb(255, 51, 0);
-}
-
-.partner__icon__youtube:hover {
-  color: rgba(255, 17, 0, 0.932);
-  transition: 0.3s ease;
-}
-
-.partner__icon__instagram {
-  float: left;
-  margin-right: 15px;
-  color: rgba(255, 68, 0, 0.541);
-}
-
-.partner__icon__instagram:hover {
-  color: orangered;
-  transition: 0.3s ease;
-}
-
-.partner__icon__mail {
-  float: left;
-  color: blueviolet;
-}
-
-.partner__icon__mail:hover {
-  color: rgba(38, 0, 255, 0.795);
-  transition: 0.3s ease;
-}
-
 .partner__us {
-  font-size: 25px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 35px;
+  margin-bottom: 3%;
   color: white;
 }
 
@@ -371,6 +339,7 @@
 }
 
 .partner__copyright p {
-  font-size: 20px;
+  font-size: 25px;
   color: black;
+  justify-content: center;
 }
