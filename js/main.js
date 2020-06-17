@@ -92,3 +92,19 @@ $(document).ready(function () {
     ],
   })
 })
+
+window.onscroll = function () {
+  scrollFunction()
+}
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 200 ||
+    document.documentElement.scrollTop > 200
+  ) {
+    document.querySelector('.header__name-img').style.height = '120%'
+    document.querySelector('.header__logo img').style.height = '50px'
+  } else {
+    document.querySelector('.header__name-img').style.height = '150%'
+    document.querySelector('.header__logo img').style.height = '80px'
+  }
+}
