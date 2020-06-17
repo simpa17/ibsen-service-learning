@@ -1,14 +1,19 @@
 
-.img1a{
-    float:left;  
-    
+.img1{
+    float: left;
 }
-.Noidung1{
-    margin-top: 5%;
-    border: 1px solid;
-    padding: 20px; 
-    width: 100%;
-    resize: horizontal;
-    overflow: auto;
-    
+.img2{
+    float: right;
+}
+p{
+    padding: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin-left: 1px;
+
+}
+body{
+    background-image: linear-gradient(rgba(198, 237, 248, 0.856),rgba(212, 246, 252, 0.726)),url(../img/Artswok-Collaborative-Singapore-Key-Visual-Colour-Illustration-Credit-Anngee-Neo.png);
+    background-position: center;
+    background-size: cover;
 }
