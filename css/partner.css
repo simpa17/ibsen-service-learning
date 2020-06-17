@@ -3,16 +3,16 @@ html {
 }
 
 .partner-info {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.767)),
-    url(../img/lawrence-kayku-frWOcVisp8U-unsplash.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.445)),
+    url(../img/backgroundfooter.png);
   padding: 20px;
   background-attachment: fixed;
   background-size: 100%;
   background-position: center;
   height: 100vh;
   background-repeat: no-repeat;
+  background-size: cover;
 }
-
 .container h2 {
   font-size: 35px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -59,18 +59,20 @@ html {
 }
 
 .partner__share {
-  font-size: 30px;
+  font-size: 35px;
   margin-left: 50%;
+  margin-bottom: 6%;
+  font-family: 'Font Playfair Display';
 }
 
 .partner__ibsen {
-  margin-bottom: 10px;
+  margin-bottom: 2%;
   font-size: 20px;
+  width: 200%;
 }
 
 .partner__heading {
-  margin-top: 30px;
-  margin-bottom: 7%;
+  margin-top: 10%;
 }
 
 .partner__connect {
@@ -107,6 +109,14 @@ html {
 .partner__knot ion-icon {
   font-size: 80px;
   margin-left: 15%;
+  position: fixed;
+  background-color: black;
+  border: 4px double white;
+  border-radius: 50%;
+}
+
+.partner__knot ion-icon:hover {
+  border: 5px solid white;
 }
 
 .partner__knot a {
@@ -120,6 +130,7 @@ html {
   font-size: 35px;
   margin-bottom: 3%;
   color: white;
+  font-family: 'Font Playfair Display';
 }
 
 .partner__heading {
@@ -172,6 +183,10 @@ html {
   margin-top: 2%;
   color: black;
   background-color: white;
+}
+
+.partner__subscribe {
+  margin-top: 8%;
 }
 
 .partner__clickSubscribe {
@@ -329,5 +344,7 @@ html {
   color: black;
   justify-content: center;
   align-items: center;
+  text-align: center;
   margin: 0;
+  width: 100%;
 }

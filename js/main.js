@@ -34,7 +34,7 @@ closeSearch.addEventListener('click', function () {
 
 $(document).ready(function () {
   var currentImage = 1
-  var totalImages = 5
+  var totalImages = 4
   function increaseImage() {
     ++currentImage
     if (currentImage > totalImages) {
@@ -103,9 +103,10 @@ function scrollFunction() {
   ) {
     document.querySelector('.header__name-img').style.height = '120%'
     document.querySelector('.header__logo img').style.height = '50px'
-    document.querySelector('.search-box ').style.height = '60px'
+    document.querySelector('.partner__knot ion-icon').style.position = 'unset'
   } else {
     document.querySelector('.header__name-img').style.height = '150%'
     document.querySelector('.header__logo img').style.height = '80px'
+    document.querySelector('.partner__knot ion-icon').style.position = 'fixed'
   }
 }
