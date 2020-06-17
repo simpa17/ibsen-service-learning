@@ -169,6 +169,7 @@
   margin: 0 auto;
   border-radius: 30px;
   outline: none;
+  color: black;
 }
 
 .search-box.close {
