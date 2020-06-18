@@ -1,23 +1,513 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <link rel="stylesheet" href="./css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
 
-<head>
-  <link rel="stylesheet" href="../css/style.css" />
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
-  <title>Ibsen Tiny Stage</title>
-</head>
+    <title>Ibsen Tiny Stage</title>
+  </head>
 
-<body>
-  <!--  -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-</body>
+  <body>
+    <div class="search-box animate__animated close">
+      <ion-icon class="search-box__icon" name="search-outline"></ion-icon>
+      <input class="search-box__input" type="text" placeholder="search..." />
+      <ion-icon
+        class="search-box__close"
+        name="close-circle-outline"
+      ></ion-icon>
+    </div>
+    <div class="nar-bar">
+      <ion-icon id="close" name="close-circle-outline"></ion-icon>
+      <img
+        class="nar-bar__img animate__animated"
+        src="./img/ibsen tiny stage2.png"
+        alt=""
+      />
+      <div class="nar-bar__list animate__animated">
+        <a href="#activities">Hoạt động</a>
+      </div>
+      <div class="nar-bar__list animate__animated">
+        <a href="#stories">Câu chuyện</a>
+      </div>
+      <div class="nar-bar__list animate__animated">
+        <a href="#news">Tin tức</a>
+      </div>
+      <div class="nar-bar__list animate__animated">
+        <a href="#partner">Đối tác</a>
+      </div>
+      <div class="nav-bar__donate">Gây quỹ</div>
+      <img class="nar-bar__qr" src="./img/scan_img.png" alt="" />
+    </div>
+    <div class="header">
+      <div class="header__logo">
+        <img src="./img/logo.png" alt="logo ibsen" />
+      </div>
+      <img
+        class="header__name-img"
+        src="./img/ibsen tiny stage.png"
+        alt="ibsen tiny stage"
+      />
+      <div class="header__nav-bar">
+        <div class="header__nav-bar__icon animate__animated">
+          <ion-icon id="open-menu" name="menu-outline"></ion-icon>
+          <ion-icon id="search" name="search-circle-outline"></ion-icon>
+        </div>
+      </div>
+    </div>
+    <div class="slideShow-container">
+      <div class="Container-SliderShow">
+        <div class="Slider" id="img_1">
+          <img src="./img/HÌNH 1a.jpg" />
+          <div class="Slider__content">
+            <h3>
+              Kết nối
+            </h3>
+          </div>
+        </div>
 
-</html>
+        <div class="Slider" id="img_2">
+          <img src="./img/HÌNH 3b.jpeg" />
+          <div class="Slider__content">
+            <h3>
+              Thiên nhiên
+            </h3>
+          </div>
+        </div>
+        <div class="Slider" id="img_3">
+          <img src="./img/Picture3.png" />
+          <div class="Slider__content">
+            <h3>
+              Chơi hết mình
+            </h3>
+          </div>
+        </div>
+        <div class="Slider" id="img_4">
+          <img src="./img/Picture4.png" />
+          <div class="Slider__content">
+            <h3>
+              Tự do biểu lộ
+            </h3>
+          </div>
+        </div>
+        <div class="Slider" id="img_5">
+          <img src="./img/ibsen  (17).jpg" />
+          <div class="Slider__content">
+            <h3>
+              Phục vụ cộng đồng
+            </h3>
+          </div>
+        </div>
+        <div class="navButton" id="next">&#10095;</div>
+        <div class="navButton" id="previous">&#10094;</div>
+      </div>
+    </div>
+    <div class="slogan">
+      <h1 class="slogan__title">
+        Developing Community Creatively
+      </h1>
+      <p class="slogan__content">
+        Harnessing the power of the arts to create dialogue, <br />invite social
+        participation and build bridges across difference
+      </p>
+    </div>
+    <!-- Hoạt động -->
+    <div class="all2">
+      <div class='heading'>Hoạt động</div>
+      <div class="grid-container">
+        <div class="g1">
+          <h2>IBSEN - NHỮNG BUỔI CHƠI</h2>
+          <p>Trò chơi và những chú rối của Sân Khấu Nhỏ Ibsen rất dễ làm, dễ chơi. Bạn chỉ cần chuẩn bị một "Cái
+            Đầu Trống Rỗng" để cùng Sân Khấu Nhỏ Ibsen quay về tuổi thơ tươi đẹp.
+            chuẩn bị một cái đầu trống rỗng như thế nào?
+            Dễ lắm. Chơi đi rồi biết!
+          <div class="button1">Read more</div>
+          </p>
+    
+        </div>
+        <div class="g2">
+          <h2>VƯỜN IBSEN</h2>
+          <p> Sân Khấu Nhỏ Ibsen chỉ có một khu vườn nho nhỏ, cái nhà nho nhỏ, những đóa hoa nho nhỏ. Còn lại mọi việc, mẹ
+            thiên nhiên sẽ ôm ấp và giải quyết ổn thỏa cho bạn. Bạn chỉ cần mang BẠN tới Vườn Ibsen là đủ.
+          <div class="button2">Read more</div>
+          </p>
+    
+        </div>
+        <div class="g3">
+          <h2>IBSEN - DOANH NGHIỆP</h2>
+          <p>Lúc này bạn không còn là sếp, là nhân viên, hay đồng nghiệp nữa. Lúc này bạn là những đứa trẻ chán ngủ trưa,
+            lén ba mẹ đi chơi Sân Khấu Nhỏ Ibsen. Vừa hồi hộp, vừa phấn khích, vừa lo lắng, vừa quên hết sự đời. Ba mẹ bắt
+            về cho ăn một trận đòn cũng đáng. Tuổi thơ mà!
+          <div class="button3">Read more</div>
+          </p>
+    
+        </div>
+    
+      </div>
+    </div>
 
+    <!-- Stories -->
+    <div class="all1">
+      <div class='heading'>Câu chuyện</div>
+    
+      <div class="img1"><img src="../img/Hinh 5.jpeg" alt="Girl in a jacket" width="650" height="400"> </div>
+      <p><b>-Mình là Bảo Dung, tốt nghiệp Đạo Diễn Sân Khấu tại TPHCM. Cách đây hơn 13 năm, khi cảm nhận được
+          có dấu hiệu trầm cảm, mình chủ động đi tìm bác sĩ tâm lý. Bất ngờ là chỉ sau 2 lần trò chuyện,
+          những dầu hiệu trầm cảm của mình giảm hơn 90%. Mừng quá, và lạ lùng là bác sỹ tâm lý “có chữa
+          gì đâu”, toàn hỏi để mình trả lời. Thì ra, có được một môi trường an toàn để nói ra, để chia sẻ
+          là một cách giải tỏa tâm lý hiệu quả!</b> </p>
+      <div class="img2"><img src="../img/Hinh 5b.jpg" alt="Girl in a jacket" width="650" height="400"></div>
+      <p><b>-<br>-Năm 2017, có dịp thăm bảo tàng của Ngài <a href="https://vi.wikipedia.org/wiki/Henrik_Ibsen">Henrik
+            Ibsen</a>, kịch tác gia nổi tiếng của Nauy, tại Skien - Nauy, mình bị cuốn hút bởi Mô Hình Sân Khấu
+          Nhỏ của Ngài, và muốn làm một dự án với nó.
+          Sau đó, mình tới làng Kuhlhausen, Havelberg, Đức để thực hiện một dự án cộng đồng về văn hóa Đức
+          và Việt Nam trong 1 tháng. Và theo mình thấy, cách khơi gợi để những người dân trong làng mở lòng
+          kể chuyện văn hóa của họ, giao lưu văn hóa Đức - Việt Nam mang lại hiệu quả cao về mặt tinh thần cho
+          cuộc sống tuổi già gần như cô lập của họ.
+          Ngoài ra, cũng có nhiều cơ duyên khác đến tạo động lực cho mình hình thành <a
+            href="http://www.philoinhuan.org/to-chuc/ibsen-tiny-stage-san-khau-nho-ibsen">Sân Khấu Nhỏ Ibsen </a>tại
+          Thái Lan vào tháng 4/ 2019, và sau đó mang về quê hương Việt Nam tháng 5/2019 cho tới nay.
+          Cảm ơn Vũ Trụ đã nuôi dưỡng <a href="http://www.philoinhuan.org/to-chuc/ibsen-tiny-stage-san-khau-nho-ibsen">Sân
+            Khấu Nhỏ Ibsen </a> tới giây phút này.
+        </b></p>
+    
+    </div>
 
+    <!-- Tin tức -->
+    <div class="new">
+      <div class="new__title" id="news">
+        <ion-icon class="icon-new" name="newspaper-outline"></ion-icon>
+        <div class="heading">Tin tức</div>
+      </div>
+      <div class="item-main zoom-main">
+        <a href="#">
+          <img
+            src="https://www.scenic.org/wp-content/uploads/2019/10/tree-preservation-slide.jpg"
+          />
+        </a>
+        <div class="content-main">
+          <a href="#">
+            <h4>Title</h4>
+          </a>
+          <p style="font-size: 150%;">
+            Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor
+            sit amet consectetur adipisicing
+          </p>
+        </div>
+      </div>
+
+      <div class="new__item">
+        <div class="item zoom-item">
+          <a href="#"
+            ><img
+              src="https://www.scenic.org/wp-content/uploads/2019/10/tree-preservation-slide.jpg"
+          /></a>
+          <div class="content-item">
+            <a href="#">
+              <h5>Title</h5>
+            </a>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum
+              dolor sit amet consectetur adipisicing
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="new__item">
+        <div class="item zoom-item">
+          <a href="#"
+            ><img
+              src="https://www.scenic.org/wp-content/uploads/2019/10/tree-preservation-slide.jpg"
+          /></a>
+          <div class="content-item">
+            <a href="#">
+              <h5>Title</h5>
+            </a>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum
+              dolor sit amet consectetur adipisicing
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="new__item">
+        <div class="item zoom-item">
+          <a href="#"
+            ><img
+              src="https://www.scenic.org/wp-content/uploads/2019/10/tree-preservation-slide.jpg"
+          /></a>
+          <div class="content-item">
+            <a href="#">
+              <h5>Title</h5>
+            </a>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum
+              dolor sit amet consectetur adipisicing
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="new__item">
+        <div class="item zoom-item">
+          <a href="#"
+            ><img
+              src="https://www.scenic.org/wp-content/uploads/2019/10/tree-preservation-slide.jpg"
+          /></a>
+          <div class="content-item">
+            <a href="#">
+              <h5>Title</h5>
+            </a>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum
+              dolor sit amet consectetur adipisicing
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="partner-footer"></div>
+    <!-- Đối tác -->
+    <div class="container">
+      <div class="partner__container">
+        <div class="container">
+          <div class="heading" id="partner">Doanh Nghiệp Đối Tác</div>
+          <br />
+          <section
+            id="myCarousel"
+            class="customer-logos slider"
+            data-ride="carousel"
+          >
+            <div class="slide">
+              <img
+                id="img_1"
+                src="https://img.freepik.com/free-vector/eye-camera-logo_53295-268.jpg?size=626&ext=jpg"
+              />
+            </div>
+            <div class="slide">
+              <img
+                id="img_2"
+                src="https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/09/fashion-logo-design.jpg"
+              />
+            </div>
+            <div class="slide">
+              <img
+                id="img_3"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRZtzy-zWQbvgDbaASsZvg0V67WX4fhi8CWqPstjxrZX7kmYlFN&usqp=CAU"
+              />
+            </div>
+            <div class="slide">
+              <img
+                id="img_4"
+                src="https://i.pinimg.com/originals/c5/d5/52/c5d552c9762cf21297044bb8a68afcca.jpg"
+              />
+            </div>
+            <div class="slide">
+              <img
+                id="img_5"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSov_Q4mIQ-bF6wSS580X9l4hbfcp9LP-DwFu17lXFNBMHYKsyz&usqp=CAU"
+              />
+            </div>
+            <div class="slide">
+              <img
+                id="img_6"
+                src="https://image.shutterstock.com/image-vector/logo-beauty-studio-woman-hat-260nw-402855277.jpg"
+              />
+            </div>
+            <div class="slide">
+              <img
+                id="img_7"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRkIutwUHl2GWbvRX3FK2eeKbyrVQyx3idD2x2vTVEOIf2PT5CD&usqp=CAU"
+              />
+            </div>
+            <div class="slide">
+              <img
+                id="img_8"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVGAKbvvLfKrPZZV6SHLdA3pBLLtUYfct0Y8A8teP2MkFD_2wM&usqp=CAU"
+              />
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="partner-info">
+      <div class="partner__heading">
+        <div class="partner__introduce">
+          <div class="partner__share">GÓC CHIA SẺ</div>
+          <div class="partner__introduce__logo">
+            <ion-icon name="information-circle-outline"></ion-icon>
+            <div>
+              <div class="partner__ibsen">
+                Sân Khấu Nhỏ Ibsen nghe nè.
+                <br />
+                Sân Khấu Nhỏ Ibsen sẽ gửi những chia sẻ của bạn vào Vũ Trụ.
+              </div>
+            </div>
+          </div>
+          <br />
+          <div>
+            <div class="partner__introduce__logo">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+            <div>Điện thoại: 098 810 63 84</div>
+          </div>
+          <br />
+          <div>
+            <div class="partner__introduce__logo">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div>E-mail: ibsentinystage@gmail.com</div>
+          </div>
+          <br />
+          <div>
+            <div class="partner__introduce__logo">
+              <ion-icon name="bulb-outline"></ion-icon>
+            </div>
+            <div>Trang web nghệ thuật & nhân văn</div>
+          </div>
+        </div>
+        <div class="partner__connect">
+          <div class="partner__us">Kết nối với chúng tôi</div>
+          <div class="partner__icons">
+            <div class="partner__icon">
+              <a
+                href="https://www.facebook.com/sankhaunhoibsen/?ref=page_internal"
+                target="_blank"
+              >
+                <ion-icon name="logo-facebook" style="color: blue;"></ion-icon>
+              </a>
+            </div>
+            <div class="partner__icon">
+              <a
+                href="https://www.youtube.com/watch?v=SR5ja-3pBz0"
+                target="_blank"
+              >
+                <ion-icon name="logo-youtube" style="color: red;"></ion-icon>
+              </a>
+            </div>
+            <div class="partner__icon">
+              <a>
+                <ion-icon
+                  name="logo-instagram"
+                  style="color: rgba(252, 45, 79, 0.568);"
+                ></ion-icon>
+              </a>
+            </div>
+            <div class="partner__icon">
+              <a href="https://www.icloud.com/mail" target="_blank">
+                <ion-icon
+                  name="mail-outline"
+                  style="color: rgba(73, 73, 238, 0.808);"
+                ></ion-icon>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="partner__subscribe">
+        <div class="partner__logo_ibsen">
+          <img src="./img/ibsen-logo.png" />
+        </div>
+        <div class="partner__update">
+          Giữ liên lạc! Theo dõi chúng tôi với cập nhật mới nhất.
+        </div>
+        <div class="partner__input">
+          <div class="partner__email">
+            <input
+              type="text"
+              name="frame"
+              id="frame"
+              placeholder="Email*"
+              required
+            />
+          </div>
+          <div class="partner__firstname">
+            <input
+              type="text"
+              name="frame"
+              id="frame"
+              placeholder="Họ*"
+              required
+            />
+          </div>
+          <div class="partner__lastname">
+            <input
+              type="text"
+              name="frame"
+              id="frame"
+              placeholder="Tên*"
+              required
+            />
+          </div>
+        </div>
+        <div class="partner__commemt">
+          <textarea
+            name=""
+            id=""
+            cols="15"
+            rows="4"
+            placeholder="Chia sẻ của bạn"
+          ></textarea>
+        </div>
+        <div class="partner__clickSubscribe">
+          <button>Gửi</button>
+        </div>
+        <div class="partner__art">
+          <div>
+            <div class="partner__mini">
+              <p class="partner__change">Suỵt!</p>
+              Tất cả những chia sẻ của bạn đều được bảo mật đó nha.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="partner__knot">
+      <a href="#">
+        <ion-icon name="chevron-up-outline"></ion-icon>
+      </a>
+    </div>
+    <div class="partner__source">
+      <div class="partner__copyright">
+        <p>Copyright © 2020 BY IBSEN TINY STAGE ibsentinystage@gmail.com</p>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-2.2.0.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="./js/main.js"></script>
+    <!-- <script src="./js/partner.js"></script> -->
+  </body>
 </html>

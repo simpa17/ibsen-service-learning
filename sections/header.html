@@ -3,7 +3,21 @@
   <head>
     <link rel="stylesheet" href="../css/style.css" />
     <meta charset="UTF-8" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -12,13 +26,83 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
     />
+    <link rel="stylesheet" href="../2015-03-25_13-52-05__grid.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link href="../css/header.css" rel="stylesheet" type="text/css" />
     <title>Ibsen Tiny Stage</title>
   </head>
 
   <body>
-    <!--  -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <div class="search-box animate__animated close">
+      <ion-icon class="search-box__icon" name="search-outline"></ion-icon>
+      <input class="search-box__input" type="text" placeholder="search..." />
+      <ion-icon
+        class="search-box__close"
+        name="close-circle-outline"
+      ></ion-icon>
+    </div>
+    <div class="nar-bar">
+      <ion-icon id="close" name="close-circle-outline"></ion-icon>
+      <img
+        class="nar-bar__img animate__animated"
+        src="../img/ibsen tiny stage2.png"
+        alt=""
+      />
+      <div class="nar-bar__list animate__animated">
+        <a href="#">Hoạt động</a>
+      </div>
+      <div class="nar-bar__list animate__animated">
+        <a href="#">Câu chuyện</a>
+      </div>
+      <div class="nar-bar__list animate__animated"><a href="#">Tin tức</a></div>
+      <div class="nar-bar__list animate__animated"><a href="#">Đối tác</a></div>
+      <div class="nav-bar__donate">Gây quỹ</div>
+      <img class="nar-bar__qr" src="../img/scan_img.png" alt="" />
+    </div>
+    <div class="header">
+      <div class="header__logo">
+        <img src="../img/logo.png" alt="logo ibsen" />
+      </div>
+      <img
+        class="header__name-img"
+        src="../img/ibsen tiny stage.png"
+        alt="ibsen tiny stage"
+      />
+      <div class="header__nav-bar">
+        <div class="header__nav-bar__icon animate__animated">
+          <ion-icon id="open-menu" name="menu-outline"></ion-icon>
+          <ion-icon id="search" name="search-circle-outline"></ion-icon>
+        </div>
+      </div>
+    </div>
+    <div class="slideShow-container">
+      <div class="Container-SliderShow">
+        <!-- style="max-width: 500px;" -->
+        <img class="Slider" id="img_1" src="../img/Picture1.png" />
+        <img class="Slider" id="img_2" src="../img/Picture2.jpg" />
+        <img class="Slider" id="img_3" src="../img/Picture3.png" />
+        <img class="Slider" id="img_4" src="../img/Picture4.png" />
+        <div class="navButton" id="next">&#10095;</div>
+        <div class="navButton" id="previous">&#10094;</div>
+      </div>
+    </div>
+    <div class="slogan">
+      <h1 class="slogan__title">
+        Developing Community Creatively
+      </h1>
+      <p class="slogan__content">
+        Harnessing the power of the arts to create dialogue, <br />invite social
+        participation and build bridges across difference
+      </p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="../Pages/js/slideShow.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="../js/main.js"></script>
   </body>
 </html>

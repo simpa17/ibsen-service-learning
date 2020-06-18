@@ -1,0 +1,267 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+
+:root {
+  --main-color: rgb(156, 21, 21);
+  --button-color: rgb(90, 28, 28);
+}
+
+.nar-bar {
+  position: relative;
+  position: fixed;
+  right: 0;
+  transform: translateX(300px);
+  z-index: 999;
+  width: 300px;
+  height: 100vh;
+  background-color: var(--main-color);
+  color: #fff;
+  transition: 300ms all ease-in-out;
+}
+
+.nar-bar__img {
+  background-color: var(--main-color);
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+#close {
+  font-size: 40px;
+  background-color: var(--main-color);
+  margin: 20px 30px;
+  color: #fff;
+}
+
+#close:hover {
+  color: #eea0a0;
+}
+
+.nar-bar__list {
+  background-color: var(--main-color);
+  margin: 20px 30px;
+}
+
+.nar-bar__list a {
+  text-decoration: unset;
+  color: #fff;
+  font-size: 30px;
+}
+
+.nar-bar__list a:hover {
+  text-decoration: unset;
+  color: #edddd4;
+}
+
+.nav-bar__donate {
+  background-color: var(--main-color);
+  color: #fff;
+  margin: 20px auto;
+  font-size: 30px;
+  font-family: 'Playfair Display';
+  border: 1px dashed white;
+  border-radius: 30px;
+  text-align: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.nav-bar__donate:hover {
+  border: 2px solid white;
+  background-color: #e42c0b;
+}
+
+.nar-bar__qr {
+  background-color: var(--main-color);
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.header {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  width: 100%;
+  background-color: #edddd4;
+  position: fixed;
+  z-index: 998;
+  overflow: hidden;
+  border-bottom: rgb(95, 91, 91) 2px solid;
+}
+
+.header__logo {
+  margin: 4px 5%;
+}
+
+.header__logo img {
+  height: 80px;
+  width: auto;
+}
+
+.header__name-img {
+  height: 150%;
+  width: auto;
+  margin: 0 auto;
+}
+
+.header__nav-bar {
+  justify-self: end;
+  transition: all ease-in-out 300ms;
+}
+
+.header__nav-bar.close {
+  transform: translateY(100px);
+}
+
+.header__nav-bar__search {
+  display: flex;
+  text-align: center;
+  border: white solid;
+  width: 100%;
+}
+
+.header__nav-bar__search ion-icon {
+  font-size: 150px;
+  color: #fcfafa;
+  margin-right: 30px;
+}
+
+.header__nav-bar__icon ion-icon {
+  font-size: 50px;
+  color: var(--button-color);
+  margin: 0 auto;
+}
+
+.header__nav-bar__icon ion-icon:hover {
+  font-size: 50px;
+  color: #fcfafa;
+  background-color: #edddd4;
+}
+
+.search-box {
+  position: fixed;
+  right: 0;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+  transition: all ease-in-out 300ms;
+}
+
+.search-box__icon {
+  position: absolute;
+  left: 20px;
+  color: black;
+}
+
+.search-box__close {
+  position: absolute;
+  right: 20px;
+  color: black;
+}
+
+.search-box__input {
+  width: 100%;
+  padding: 5px 10px 5px 50px;
+  margin: 0 auto;
+  border-radius: 30px;
+  outline: none;
+  color: black;
+}
+
+.search-box.close {
+  transform: translateY(-100px);
+}
+
+.slideShow-container {
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(10, 9, 9, 0.418),
+      rgba(10, 9, 9, 0.418)
+    ),
+    url(../img/background-header.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#Container-SliderShow {
+  /* Main wrapper for all images */
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+.Slider {
+  width: 70%;
+  height: 100vh;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Slider img {
+  height: 100vh;
+  width: 100%;
+}
+
+.Slider__content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(145, 137, 137, 0.507);
+  padding: 10px;
+  width: 100%;
+  height: 20%;
+}
+
+.Slider__content h3 {
+  font-family: 'Playfair Display';
+  font-size: 100px;
+  text-align: center;
+  padding: 10px;
+  color: rgb(250, 245, 245);
+}
+
+.Slider:not(:first-child) {
+  display: none;
+}
+
+.navButton {
+  cursor: pointer;
+  padding: 100px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+  font-size: 80px;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(245, 245, 245, 0);
+}
+#previous {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+#next {
+  position: absolute;
+  top: 30%;
+  right: 5%;
+}
+
+.slogan__title {
+  text-align: center;
+  color: rgb(90, 28, 28);
+}
+
+.slogan__content {
+  text-align: center;
+  color: rgb(90, 28, 28);
+}
