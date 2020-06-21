@@ -10,18 +10,19 @@
 
 .grid-container > div {
   background-color: rgba(241, 11, 11, 0);
-  border: 5px solid black;
+  border: 1px solid black;
+  padding: 1px;
   text-align: center;
   font-size: 25px;
-  color: red;
+  color:rgba(240, 240, 240, 0.938);
 }
 .all2{
-  background-image: linear-gradient(rgba(0, 217, 255, 0.048),rgba(0, 204, 255, 0.158)),url(../img/Artswok-Collaborative-Singapore-Key-Visual-Colour-Illustration-Credit-Anngee-Neo.png);
+  background-image: linear-gradient(rgba(0, 255, 0, 0.048),rgba(0, 204, 255, 0.158));
   background-position: center;
   background-size: cover;
 }
 .g1{
-  background-image: linear-gradient(rgba(255, 255, 255, 0.123),rgba(255, 255, 255, 0.171)),url(../img/Hinh\ 3b.jpeg);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.199),rgba(255, 255, 255, 0.171)),url(../img/Hinh\ 3b.jpeg);
   background-position: center;
   background-size: cover;
 }
