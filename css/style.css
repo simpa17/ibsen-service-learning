@@ -22,7 +22,7 @@
 
 .heading {
   text-align: center;
-  color: #0a360a;
+  color: #ec0c0c;
   clear: both;
   margin: 40px;
   font-size: 60px;
@@ -35,7 +35,7 @@
   display: block;
   width: 300px;
   height: 3px;
-  background-color: #0a360a;
+  background-color: #ec0c0c;
   left: 50%;
   transform: translateX(-50%);
 }

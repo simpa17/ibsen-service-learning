@@ -3,7 +3,7 @@
   <head>
     <link rel="stylesheet" href="./css/style.css" />
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
     <link
       rel="stylesheet"
       type="text/css"
@@ -78,7 +78,7 @@
     <div class="slideShow-container">
       <div class="Container-SliderShow">
         <div class="Slider" id="img_1">
-          <img src="./img/HÌNH 1a.jpg" />
+          <div class="slider__img"><img src="./img/HÌNH 1a.jpg" /></div>
           <div class="Slider__content">
             <h3>
               Kết nối
@@ -87,7 +87,7 @@
         </div>
 
         <div class="Slider" id="img_2">
-          <img src="./img/HÌNH 3b.jpeg" />
+          <div class="slider__img"><img src="./img/HÌNH 5.jpeg" /></div>
           <div class="Slider__content">
             <h3>
               Thiên nhiên
@@ -95,7 +95,7 @@
           </div>
         </div>
         <div class="Slider" id="img_3">
-          <img src="./img/Picture3.png" />
+          <div class="slider__img"><img src="./img/HÌNH 2.jpg" /></div>
           <div class="Slider__content">
             <h3>
               Chơi hết mình
@@ -103,7 +103,7 @@
           </div>
         </div>
         <div class="Slider" id="img_4">
-          <img src="./img/Picture4.png" />
+          <div class="slider__img"><img src="./img/ibsen  (7).jpg" /></div>
           <div class="Slider__content">
             <h3>
               Tự do biểu lộ
@@ -111,7 +111,7 @@
           </div>
         </div>
         <div class="Slider" id="img_5">
-          <img src="./img/ibsen  (17).jpg" />
+          <div class="slider__img"><img src="./img/ibsen  (21).JPG" /></div>
           <div class="Slider__content">
             <h3>
               Phục vụ cộng đồng
@@ -122,20 +122,11 @@
         <div class="navButton" id="previous">&#10094;</div>
       </div>
     </div>
-    <div class="slogan">
-      <h1 class="slogan__title">
-        Developing Community Creatively
-      </h1>
-      <p class="slogan__content">
-        Harnessing the power of the arts to create dialogue, <br />invite social
-        participation and build bridges across difference
-      </p>
-    </div>
     <!-- Hoạt động -->
     <div class="all2">
       <div class="heading">Hoạt động</div>
       <div class="grid-container">
-        <div class="g1">
+        <div id="g1" class="g">
           <h2>IBSEN - NHỮNG BUỔI CHƠI</h2>
           <p>
             Trò chơi và những chú rối của Sân Khấu Nhỏ Ibsen rất dễ làm, dễ
@@ -143,9 +134,9 @@
             Nhỏ Ibsen quay về tuổi thơ tươi đẹp. chuẩn bị một cái đầu trống rỗng
             như thế nào? Dễ lắm. Chơi đi rồi biết!
           </p>
-          <div class="button1">Read more</div>
+          <div class="button">Read more</div>
         </div>
-        <div class="g2">
+        <div id="g2" class="g">
           <h2>VƯỜN IBSEN</h2>
           <p>
             Sân Khấu Nhỏ Ibsen chỉ có một khu vườn nho nhỏ, cái nhà nho nhỏ,
@@ -153,9 +144,9 @@
             giải quyết ổn thỏa cho bạn. Bạn chỉ cần mang BẠN tới Vườn Ibsen là
             đủ.
           </p>
-          <div class="button2">Read more</div>
+          <div class="button">Read more</div>
         </div>
-        <div class="g3">
+        <div id="g3" class="g">
           <h2>IBSEN - DOANH NGHIỆP</h2>
           <p>
             Lúc này bạn không còn là sếp, là nhân viên, hay đồng nghiệp nữa. Lúc
@@ -163,7 +154,7 @@
             Nhỏ Ibsen. Vừa hồi hộp, vừa phấn khích, vừa lo lắng, vừa quên hết sự
             đời. Ba mẹ bắt về cho ăn một trận đòn cũng đáng. Tuổi thơ mà!
           </p>
-          <div class="button3">Read more</div>
+          <div class="button">Read more</div>
         </div>
       </div>
     </div>
@@ -174,7 +165,7 @@
 
       <div class="img1">
         <img
-          src="../img/Hinh 5.jpeg"
+          src="./img/HÌNH 5.jpeg"
           alt="Girl in a jacket"
           width="650"
           height="400"
@@ -193,7 +184,7 @@
       </p>
       <div class="img2">
         <img
-          src="../img/Hinh 5b.jpg"
+          src="./img/HÌNH 5b.jpg"
           alt="Girl in a jacket"
           width="650"
           height="400"
@@ -227,7 +218,7 @@
 
     <!-- Tin tức -->
     <section class="new">
-      <div class="heading">Tin tứcgit</div>
+      <div class="heading">Tin tức</div>
       <div class="new__list-hot">
         <div class="new__title-hot">
           <h2>Tin nổi bật</h2>

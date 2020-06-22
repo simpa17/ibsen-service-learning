@@ -1,98 +1,59 @@
 .grid-container {
   width: 100%;
+  height: 430px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 30px;
-  padding: 40px;
+  grid-gap: 10px;
   margin: auto;
   text-decoration: none;
+  background-color: rgb(151, 12, 12);
 }
 
 .grid-container > div {
-  background-color: rgba(241, 11, 11, 0);
   border: 5px solid black;
   text-align: center;
   font-size: 25px;
-  color: red;
+  border-radius: 10px;
+  position: relative;
+  margin: 30px;
 }
-.all2 {
-  background-image: linear-gradient(
-      rgba(0, 217, 255, 0.048),
-      rgba(0, 204, 255, 0.158)
-    ),
-    url(../img/Artswok-Collaborative-Singapore-Key-Visual-Colour-Illustration-Credit-Anngee-Neo.png);
-  background-position: center;
-  background-size: cover;
+
+.g h2 {
+  font-family: Playfair Display;
+  font-size: 40px;
+  margin-top: 10px;
+  color: white;
 }
-.g1 {
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.123),
-      rgba(255, 255, 255, 0.171)
-    ),
-    url(../img/hinh\3b.jpeg);
-  background-position: center;
-  background-size: cover;
+
+.g p {
+  padding: 10px;
+  font-size: 30px;
+  color: white;
+  margin-top: 10px;
 }
-.g2 {
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.123),
-      rgba(255, 255, 255, 0.233)
-    ),
-    url(../img/hinh\4a.jpg);
-  background-position: center;
-  background-size: cover;
-}
-.g3 {
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.123),
-      rgba(255, 255, 255, 0.171)
-    ),
-    url(../img/hinh\4b.jpg);
-  background-position: center;
-  background-size: cover;
-}
-.button1 {
-  background-color: orange;
+
+.button {
+  background-color: white;
+  color: black;
+  font-size: 30px;
   border-radius: 200px;
-  width: 50%;
-  margin-left: 25%;
+  width: 30%;
   box-shadow: 0 9px #999;
+  position: absolute;
+  padding: 10px;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
 }
-.button1:hover {
+.button:hover {
   background-color: #4caf50;
   color: white;
 }
-.button1:active {
+.button:active {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-.button2 {
-  background-color: orange;
-  border-radius: 200px;
-  width: 50%;
-  margin-left: 25%;
-  box-shadow: 0 9px #999;
-}
-.button2:hover {
-  background-color: #4caf50;
-  color: white;
-}
-.button2:active {
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-.button3 {
-  background-color: orange;
-  border-radius: 200px;
-  width: 50%;
-  margin-left: 25%;
-  box-shadow: 0 9px #999;
-}
-.button3:hover {
-  background-color: #4caf50;
-  color: white;
-}
-.button3:active {
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+
+#g1 {
+  background-image: url(../img/hình\1a.jpg);
 }
