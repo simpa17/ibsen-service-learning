@@ -6,7 +6,7 @@
 }
 
 .new__list-hot img {
-  width: 20%;
+  width: 25%;
   height: 105px;
   padding: 1%;
 }
@@ -31,9 +31,11 @@
   margin-bottom: 3%;
 }
 
+
+
 .new__list-content {
   float: right;
-  width: 80%;
+  width: 75%;
   font-size: 80%;
   margin-bottom: 3%;
 }
