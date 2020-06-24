@@ -104,9 +104,11 @@ function scrollFunction() {
     document.querySelector('.header__name-img').style.height = '120%'
     document.querySelector('.header__logo img').style.height = '50px'
     document.querySelector('.partner__knot ion-icon').style.position = 'unset'
+    document.querySelector('.search-box').style.height = '60px'
   } else {
     document.querySelector('.header__name-img').style.height = '150%'
     document.querySelector('.header__logo img').style.height = '80px'
     document.querySelector('.partner__knot ion-icon').style.position = 'fixed'
+    document.querySelector('.search-box').style.height = '100px'
   }
 }

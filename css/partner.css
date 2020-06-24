@@ -60,7 +60,7 @@ html {
 
 .partner__share {
   font-size: 35px;
-  margin-left: 50%;
+  margin-left: 40%;
   margin-bottom: 6%;
   font-family: 'Font Playfair Display';
 }
@@ -84,11 +84,15 @@ html {
 
 .partner__icons {
   display: flex;
+  border: white 2px solid;
+  background-color: white;
+  border-radius: 30px;
+  justify-content: center;
 }
 
 .partner__icon ion-icon {
   font-size: 50px;
-  margin-right: 15px;
+  margin-left: 7px;
 }
 
 .partner__iconworld {
@@ -100,10 +104,13 @@ html {
 }
 
 .partner__logo_ibsen img {
-  width: 28%;
+  width: 35%;
   height: auto;
-  margin-left: 26%;
-  margin-bottom: 2%;
+  margin-left: 21%;
+}
+
+.partner__knot {
+  z-index: 9999;
 }
 
 .partner__knot ion-icon {
@@ -177,7 +184,7 @@ html {
 }
 
 .partner__commemt textarea {
-  margin-left: 25%;
+  margin-left: 23%;
   width: 30%;
   margin-bottom: 1%;
   margin-top: 2%;
@@ -191,13 +198,13 @@ html {
 
 .partner__clickSubscribe {
   widows: 100px;
-  margin-left: 62%;
+  margin-left: 60%;
   font-size: 25px;
   color: white;
   border-style: solid;
   border-top-color: white;
   border-top-width: 2px;
-  margin-right: 27%;
+  margin-right: 23%;
 }
 
 .partner__clickSubscribe button {
