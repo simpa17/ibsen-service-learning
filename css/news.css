@@ -1,9 +1,8 @@
 .new__list-hot {
-  width: 38%;
+  width: 45%;
   float: left;
-  margin-left: 9%;
   margin-top: 2%;
-  /* border: 1px solid black; */
+  margin-left: 2%;
 }
 
 .new__list-hot img {
@@ -13,10 +12,10 @@
 }
 
 .new__list-video {
-  width: 38%;
-  float: right;
-  margin-right: 9%;
+  width: 45%;
+  display: inline-block;
   margin-top: 2%;
+  margin-left: 5%;
 }
 
 .new__list-video img {
