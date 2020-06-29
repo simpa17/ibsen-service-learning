@@ -1,22 +1,21 @@
 .new__list-hot {
-  width: 38%;
+  width: 45%;
   float: left;
-  margin-left: 9%;
   margin-top: 2%;
-  /* border: 1px solid black; */
+  margin-left: 2%;
 }
 
 .new__list-hot img {
-  width: 20%;
+  width: 25%;
   height: 105px;
   padding: 1%;
 }
 
 .new__list-video {
-  width: 38%;
-  float: right;
-  margin-right: 9%;
+  width: 45%;
+  display: inline-block;
   margin-top: 2%;
+  margin-left: 5%;
 }
 
 .new__list-video img {
@@ -32,9 +31,11 @@
   margin-bottom: 3%;
 }
 
+
+
 .new__list-content {
   float: right;
-  width: 80%;
+  width: 75%;
   font-size: 80%;
   margin-bottom: 3%;
 }
