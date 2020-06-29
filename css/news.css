@@ -40,10 +40,10 @@
 }
 
 .new__details {
-  background-color: rgb(190, 51, 9);
+  background-color: rgb(206, 7, 7);
   padding: 1%;
   margin-left: 1%;
-  color: black;
+  color: wheat;
 }
 
 .new__details:hover {

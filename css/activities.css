@@ -10,7 +10,7 @@
 }
 
 .grid-container > div {
-  border: 5px solid black;
+  border: 5px solid white;
   text-align: center;
   font-size: 25px;
   border-radius: 10px;
@@ -19,28 +19,44 @@
   z-index: 10;
 }
 
+.g {
+  opacity: 0;
+}
+
 .g h2 {
   font-family: Playfair Display;
   font-size: 40px;
   margin-top: 10px;
-  color: white;
+  color: red;
+  font-weight: bolder;
 }
 
 .g p {
   padding: 10px;
   font-size: 30px;
-  color: white;
+  color: black;
   margin-top: 10px;
+  font-weight: bolder;
+  background-color: rgba(160, 158, 158, 0.719);
 }
 
 .g p a {
-  color: white;
+  color: rgb(126, 10, 10);
   font-style: italic;
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: 30px;
+}
+.g p a:hover {
+  color: white;
 }
 
 #g1 {
   background-size: contain;
-  background: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)),
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.39),
+      rgba(255, 255, 255, 0.39)
+    ),
     url(../img/1a.jpg);
   background-size: cover;
   background-position: center;
@@ -48,7 +64,10 @@
 
 #g2 {
   background-size: contain;
-  background: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)),
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.39),
+      rgba(255, 255, 255, 0.39)
+    ),
     url(../img/4a.jpg);
   background-size: cover;
   background-position: center;
@@ -56,7 +75,10 @@
 
 #g3 {
   background-size: contain;
-  background: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)),
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.39),
+      rgba(255, 255, 255, 0.39)
+    ),
     url(../img/hinh1b.jpg);
   background-size: cover;
   background-position: center;

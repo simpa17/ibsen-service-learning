@@ -55,18 +55,13 @@
   background-color: var(--main-color);
   color: #fff;
   margin: 20px auto;
-  font-size: 30px;
+  font-size: 25px;
+  font-style: italic;
   font-family: 'Playfair Display';
-  border: 1px dashed white;
-  border-radius: 30px;
-  text-align: center;
-  justify-content: center;
-  width: 50%;
-}
-
-.nav-bar__donate:hover {
-  border: 2px solid white;
-  background-color: #e42c0b;
+  /* text-align: center;
+  justify-content: center; */
+  width: 100%;
+  padding: 10px;
 }
 
 .nar-bar__qr {
@@ -185,6 +180,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 #Container-SliderShow {
@@ -193,10 +189,9 @@
   padding: 0;
   margin: 0 auto;
   overflow: hidden;
-  position: relative;
 }
 .Slider {
-  width: 70%;
+  width: 100%;
   height: 100vh;
   position: absolute;
   left: 50%;
@@ -204,9 +199,9 @@
 }
 
 .slider__img img {
-  margin-top: 8%;
+  margin-top: 5%;
   height: 75vh;
-  width: 70%;
+  width: 50%;
   margin-left: 50%;
   transform: translateX(-50%);
   border: 4px solid white;
@@ -220,8 +215,8 @@
   background-color: rgba(145, 137, 137, 0.507);
   padding: 10px;
   margin: 5px;
-  width: 100%;
   height: 90px;
+  width: 100%;
 }
 
 .Slider__content h1 {
@@ -229,6 +224,7 @@
   text-align: center;
   padding: 5px;
   color: rgb(250, 245, 245);
+  font-family: Playfair Display;
 }
 
 .Slider:not(:first-child) {

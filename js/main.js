@@ -112,3 +112,28 @@ function scrollFunction() {
     document.querySelector('.search-box').style.height = '100px'
   }
 }
+
+var story = document.querySelector('.story')
+
+story.addEventListener('click', function () {})
+
+const storyFirst = document.querySelector('#storyfirst')
+const storySecond = document.querySelector('#storysecond')
+const activity = document.querySelector('#activities')
+window.addEventListener('scroll', function () {
+  const storyFirstBounder = storyFirst.getBoundingClientRect()
+  const storySecondBounder = storySecond.getBoundingClientRect()
+
+  if (storyFirstBounder.top <= 664 && storySecondBounder.top <= 664) {
+    storyFirst.classList.add('animate__fadeInTopLeft', 'animate__slow')
+    storySecond.classList.add('animate__fadeInTopRight', 'animate__slow')
+  }
+
+  const activityBounder = activity.getBoundingClientRect()
+  console.log(activityBounder.top)
+  if (activityBounder.top <= 200) {
+    Array.from(activity.children[1].children).forEach((e) => {
+      e.classList.add('animate__fadeInUp', 'animate__slow')
+    })
+  }
+})

@@ -1,7 +1,7 @@
 .stories__container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
+  grid-gap: 100px;
   position: relative;
   width: 500px;
   margin-left: 15%;
@@ -16,26 +16,38 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  opacity: 0;
 }
 
-.story__content {
-  width: 100%;
-  height: auto;
-  color: black;
+.story__button {
+  border: 2px solid white;
+  padding: 5px;
+  margin: 20px;
+  border-radius: 30px;
   background-color: white;
-  padding: 50px;
-  position: absolute;
-  width: 500px;
-  height: 500px;
-  border-radius: 100px;
-  position: absolute;
+  color: red;
+}
+
+.story__button a {
+  text-decoration: none;
+  color: red;
+}
+
+.story__button a:hover {
+  color: rgba(255, 0, 0, 0.555);
+  text-decoration: none;
+}
+
+.story__button:hover {
+  background-color: rgba(255, 255, 255, 0.808);
+  color: rgb(129, 3, 3);
 }
 
 .story img {
   border: solid 4px white;
   width: 500px;
   height: 500px;
-  border-radius: 100px;
+  border-radius: 50%;
   position: relative;
   z-index: 100;
 }
