@@ -26,18 +26,19 @@
 .g h2 {
   font-family: Playfair Display;
   font-size: 40px;
-  margin-top: 10px;
+  padding: 10px;
   color: red;
   font-weight: bolder;
+  background-color: rgba(160, 158, 158, 0.527);
 }
 
 .g p {
   padding: 10px;
   font-size: 30px;
   color: black;
-  margin-top: 10px;
+  padding: 10px;
   font-weight: bolder;
-  background-color: rgba(160, 158, 158, 0.719);
+  background-color: rgba(160, 158, 158, 0.527);
 }
 
 .g p a {
@@ -54,8 +55,8 @@
 #g1 {
   background-size: contain;
   background: linear-gradient(
-      rgba(255, 255, 255, 0.39),
-      rgba(255, 255, 255, 0.39)
+      rgba(255, 255, 255, 0.479),
+      rgba(255, 255, 255, 0.082)
     ),
     url(../img/1a.jpg);
   background-size: cover;

@@ -4,6 +4,9 @@
   --main-color: rgb(156, 21, 21);
   --button-color: rgb(90, 28, 28);
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .nar-bar {
   position: relative;
@@ -55,18 +58,11 @@
   background-color: var(--main-color);
   color: #fff;
   margin: 20px auto;
-  font-size: 30px;
+  font-size: 25px;
+  font-style: italic;
   font-family: 'Playfair Display';
-  border: 1px dashed white;
-  border-radius: 30px;
-  text-align: center;
-  justify-content: center;
-  width: 50%;
-}
-
-.nav-bar__donate:hover {
-  border: 2px solid white;
-  background-color: #e42c0b;
+  width: 100%;
+  padding: 10px;
 }
 
 .nar-bar__qr {
@@ -175,8 +171,30 @@
   transform: translateY(-100px);
 }
 
-html {
-  scroll-behavior: smooth;
+.story__container {
+  width: 70%;
+  background-color: rgba(255, 0, 0, 0.219);
+  margin: 0 auto;
+  padding-top: 5%;
+  border: red 5px solid;
+  border-radius: 10px;
+}
+
+.story__header {
+  text-align: center;
+  font-size: 60px;
+}
+
+.story__contents {
+  font-size: 30px;
+  padding: 20px;
+}
+.story__image {
+  margin-top: 1%;
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 30%;
+  margin-left: 35%;
 }
 
 .partner-info {
@@ -189,30 +207,9 @@ html {
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-}
-.container h2 {
-  font-size: 35px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  position: relative;
-  margin-right: 10px;
-  transition: 0.3s ease;
-  text-transform: uppercase;
-  display: inline-block;
-}
-
-.container h2::after {
-  position: absolute;
-  content: '';
-  display: block;
-  width: 0;
-  height: 6px;
-  background-color: rgba(255, 20, 0, 0.72);
-  margin-top: 5px;
-  transition: 300ms all ease-in-out;
-}
-
-.container h2:hover::after {
-  width: 100%;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1000px;
 }
 
 .partner__introduce {
@@ -224,15 +221,8 @@ html {
 }
 
 .partner__introduce__logo {
-  float: left;
-  font-size: 30px;
+  font-size: 50px;
   color: white;
-  margin-right: 15px;
-  margin-left: 20px;
-}
-
-.partner__introduce__logo:hover {
-  color: red;
 }
 
 .partner__share {
@@ -244,7 +234,7 @@ html {
 
 .partner__ibsen {
   margin-bottom: 2%;
-  font-size: 20px;
+  font-size: 23px;
   width: 200%;
 }
 
@@ -272,18 +262,17 @@ html {
   margin-left: 7px;
 }
 
+.partner__introduce__logo ion-icon {
+  float: left;
+  margin-right: 4%;
+  font-size: 45px;
+}
+
 .partner__iconworld {
   margin-top: 15px;
   font-size: 40px;
   color: #ca2127;
   float: left;
-  margin-right: 15px;
-}
-
-.partner__logo_ibsen img {
-  width: 35%;
-  height: auto;
-  margin-left: 21%;
 }
 
 .partner__knot {
@@ -317,75 +306,48 @@ html {
   font-family: 'Font Playfair Display';
 }
 
-.partner__heading {
-  float: left;
+.partner__subscribe {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.partner__logo_ibsen img {
+  width: 65%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .partner__update {
   font-size: 25px;
   color: white;
-  margin-bottom: 20px;
-  margin-left: 53%;
-}
-
-.partner__input {
-  margin-left: 40%;
-}
-.partner__email input {
-  border: 2px solid white;
-  border-radius: 200px;
-  float: left;
-  margin-right: 20px;
-  padding: 8px;
-  width: 30%;
-  background-color: white;
-}
-
-.partner__firstname input {
-  border: 2px solid white;
-  border-radius: 200px;
-  float: left;
-  margin-right: 20px;
-  padding: 8px;
-  width: 30%;
-  background-color: white;
-}
-
-.partner__lastname input {
-  border: 2px solid white;
-  border-radius: 200px;
-  float: left;
-  padding: 8px;
-  width: 30%;
-  background-color: white;
+  margin: 20px;
+  text-align: center;
 }
 
 .partner__commemt textarea {
-  margin-left: 23%;
-  width: 30%;
-  margin-bottom: 1%;
-  margin-top: 2%;
+  width: 60%;
+  margin: 20px;
   color: black;
   background-color: white;
-}
-
-.partner__subscribe {
-  margin-top: 8%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .partner__clickSubscribe {
-  widows: 100px;
-  margin-left: 60%;
+  width: 20%;
   font-size: 30px;
-  color: white;
-  border-style: solid;
-  border-top-color: white;
-  border-top-width: 2px;
-  margin-right: 23%;
+  border: 3px solid white;
   padding: 10px;
   text-align: center;
   border-radius: 50px;
   background-color: rgb(102, 6, 6);
+  align-items: center;
+  margin: 20px auto;
+  color: white;
 }
 
 .partner__clickSubscribe:hover {
@@ -393,16 +355,15 @@ html {
 }
 
 .partner__art {
-  margin-left: 35%;
   font-size: 25px;
   color: white;
+  margin: 20px;
+  text-align: center;
 }
 .partner__change {
-  margin-right: 1%;
   font-family: 'Playfair Display';
   font-size: 40px;
   display: inline-block;
-  margin-left: 20%;
   color: white;
 }
 
@@ -418,48 +379,20 @@ html {
   position: fixed;
 }
 
-.slick-slide {
-  margin: 0px 20px;
-}
-
-.slick-slide img {
-  width: 100%;
-}
-
 .partner__source {
   background-color: white;
   border-style: solid;
-  text-align: center;
   border-top-color: white;
   border-top-width: 2px;
+  position: relative;
 }
 
 .partner__copyright p {
+  position: absolute;
   font-size: 25px;
   color: black;
   margin: 0;
   width: 100%;
   justify-content: center;
   text-align: center;
-}
-
-.story__container {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  padding: 5%;
-}
-
-.story__header {
-  text-align: center;
-  font-size: 60px;
-}
-
-.story__contents {
-  font-size: 25px;
-}
-.story__image {
-  margin-top: 1%;
-  border: 2px solid black;
-  border-radius: 50%;
-  width: 30%;
-  margin-left: 35%;
 }

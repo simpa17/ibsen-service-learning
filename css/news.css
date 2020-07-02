@@ -6,9 +6,8 @@
 }
 
 .new__list-hot img {
-  width: 25%;
-  height: 105px;
-  padding: 1%;
+  width: 150px;
+  height: 150px;
 }
 
 .new__list-video {
@@ -19,19 +18,15 @@
 }
 
 .new__list-video img {
-  width: 20%;
-  height: 105px;
-  padding: 1%;
+  width: 150px;
+  height: 150px;
 }
 
 .new__list-item {
   clear: both;
   list-style: none;
-  margin-top: 0;
   margin-bottom: 3%;
 }
-
-
 
 .new__list-content {
   float: right;

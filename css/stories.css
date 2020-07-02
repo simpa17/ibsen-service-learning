@@ -2,9 +2,8 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 100px;
-  position: relative;
   width: 500px;
-  margin-left: 15%;
+  margin: 0 15%;
 }
 
 .story {
