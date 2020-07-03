@@ -3,7 +3,7 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 50px;
   justify-content: center;
-  padding: 0 50px;
+  padding: 0 150px;
 }
 
 .story {
@@ -14,7 +14,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  padding: 30px;
+  padding: 30px 0;
   opacity: 0;
 }
 
@@ -42,9 +42,14 @@
   color: rgb(129, 3, 3);
 }
 
-.story img {
+.story-img {
+  width: 400px;
+  height: 400px;
+}
+
+.story-img img {
   border: solid 4px white;
-  width: 80%;
+  width: 100%;
   border-radius: 50%;
   position: relative;
   z-index: 100;

@@ -1,9 +1,10 @@
 .grid-container {
   width: 100%;
-  height: 70vh;
+  height: max-content;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 10px;
+  padding: 10px;
   margin: auto;
   text-decoration: none;
   background-color: rgb(151, 12, 12);
@@ -15,7 +16,6 @@
   font-size: 25px;
   border-radius: 10px;
   position: relative;
-  margin: 30px;
   z-index: 10;
 }
 
